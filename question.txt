@@ -1,0 +1,650 @@
+Question 1
+An engineer at example.com pauses a GitHub Codespace to save resources and does not commit recent edits to the repository. When they start that same codespace again later, will their uncommitted changes still be present? (Choose 1)
+
+They will persist only if you pushed them to a remote branch before stopping
+Yes, the uncommitted edits remain available when you reopen the same codespace
+You must run a GitHub Actions backup workflow before stopping or the edits will be lost
+No, uncommitted changes are discarded when you stop a codespace
+
+Question 2
+An engineer at scrumtuous.com is reviewing a project on GitHub and opens the Security tab for the repository. What information should they expect to find there? (Choose 1)
+
+A catalog of all issues created for security concerns in that repository
+Organization audit logs and SAML SSO configuration
+A consolidated view that includes dependency vulnerability alerts along with code scanning findings and secret scanning detections
+Contact details for the GitHub security team to report incidents
+
+Question 3
+You opened a pull request to the inventory service repository at example.com and the reviewer asked for several updates during code review. You want to continue the review while preserving the existing discussion and commit history. What should you do? (Choose 1)
+
+Close the pull request and open a new one from the same branch
+Apply the requested updates and push new commits to the existing pull request
+Proceed without addressing the comments and try to merge as is
+Abandon the pull request and create a separate change in Cloud Source Repositories
+
+Question 4
+When you are viewing an issue in a repository through the web interface, where do you initiate creating a new branch that will be linked to that issue? (Choose 1)
+
+From the issue description area
+In the Development section of the issue sidebar
+From the repository settings page
+From the pull request configuration page
+
+Question 5
+A team at scrumtuous.com is rolling out shared automation using GitHub Actions and wants one workflow to call a reusable workflow that resides in another location. In what situations does GitHub Actions allow this reuse to occur? (Choose 1)
+
+If the called workflow is referenced through a repository that was renamed and GitHub redirects to the new name
+When both workflows are in the same repository or the called workflow is in a public repository that your org allows or it is in a private repository with access granted
+Only if the two workflows are stored in the same repository
+Only if the called workflow is in a public repository
+
+Question 6
+Which capability is exclusive to GitHub Enterprise? (Choose 1)
+
+GitHub Actions
+GitHub Enterprise Support
+GitHub Codespaces
+
+Question 7
+A product team at mcnz.com is drafting internal guidelines for adopting community driven tools and wants to pinpoint the single trait that truly sets open source software apart from proprietary products. Which statement describes that defining trait? (Choose 1)
+
+Built and managed exclusively by one company
+It must be distributed only through Google Cloud Marketplace
+The source code is openly available to view modify and redistribute
+The code remains closed and proprietary under vendor control
+
+Question 7
+A product team at mcnz.com is drafting internal guidelines for adopting community driven tools and wants to pinpoint the single trait that truly sets open source software apart from proprietary products. Which statement describes that defining trait? (Choose 1)
+
+Built and managed exclusively by one company
+It must be distributed only through Google Cloud Marketplace
+The source code is openly available to view modify and redistribute
+The code remains closed and proprietary under vendor control
+
+Question 8
+Priya moderates GitHub Discussions for a community repository and sees that a topic in a question and answer category has a community reply that clearly resolves the issue. What action can Priya take to make that reply stand out for others who view the thread? (Choose 1)
+
+Convert the discussion into an issue
+Pin the reply at the top of the discussion
+Mark the reply as the answer to the discussion thread
+Edit the original discussion post to copy that reply into it
+
+Question 9
+Marble Peak Analytics at example.com uses GitHub Team today and plans to upgrade within 90 days to meet external audit requirements. Which capability would they gain with GitHub Enterprise that goes beyond what Team provides? (Choose 1)
+
+Only GitHub Enterprise can integrate with Google Cloud Build
+It is available only as a self hosted product
+It includes expanded security, compliance, and deployment governance controls
+It is the only plan that is free for organizations
+
+Question 10
+A product group at Rivertown Robotics manages backlogs in GitHub across several repositories and wants to keep work visible as it grows. What is the main advantage of applying labels to issues pull requests and discussions in this situation? (Choose 1)
+
+To create executive dashboards that summarize sprint velocity without any manual input
+To group and set priority on issues pull requests and discussions so the team can manage workflow effectively
+To automatically measure server uptime and CPU usage with Cloud Monitoring
+To count the exact number of lines of code each contributor adds to the repository
+
+Question 11
+Which Git command removes app/secrets.txt from the index while leaving the file in the working directory so you can then add it to .gitignore? (Choose 1)
+
+git restore --staged app/secrets.txt
+git rm --cached app/secrets.txt
+git rm app/secrets.txt
+git update-index --assume-unchanged app/secrets.txt
+
+Question 12
+Aisha is working in the acme-analytics repository and needs a quick view of all open issues and pull requests that are assigned to her. Which search filter should she use? (Choose 1)
+
+is:open mentions:@me
+assignee:@me is:open
+is:open author:@me
+is:issue is:open assignee:@me
+
+Question 13
+A new engineering lead at scrumtuous.com wants to establish a collaborative culture for internal software development and the team keeps referring to InnerSource during planning. What does InnerSource mean in this situation? (Choose 1)
+
+A cataloging tool that inventories third party open source components in codebases
+Applying open source practices within a single company
+Cloud Source Repositories
+A personal initiative to apply open source methods to side projects
+
+Question 14
+An engineering team at mcnz.com is rolling out GitHub to support their development process and collaboration. What is the primary reason teams use GitHub in this situation? (Choose 1)
+
+Automating test and build pipelines with GitHub Actions
+Hosting a static website through GitHub Pages
+Collaborating on source code with version control and pull requests
+Publishing packages and artifacts with GitHub Packages
+
+Question 15
+A product design startup named Riverpine Labs plans to adopt InnerSource to speed delivery and reduce duplicated effort among its engineering teams. In this context what does InnerSource refer to? (Choose 1)
+
+Using third-party open source packages inside the company
+A specific type of open source license
+Collaborative development where internal teams share and contribute to proprietary code across the company
+Removing all use of open source from internal builds
+
+
+Question 16
+BlueSky Robotics keeps its code on GitHub and wants to improve onboarding and collaboration by adding a top level README to each repository. Which outcomes are the primary advantages of including a thorough README? (Choose 3)
+
+Identify maintainers and typical contributor roles
+Cloud Storage
+Clarify what the project does and why it matters to potential users
+Point people to places to ask questions or get support
+
+Question 17
+Priya maintains a shared library on GitHub for a fintech startup named HelioPay and she wants to keep third party packages current and safe across the repository. In GitHub, how can she use the dependency graph to discover what her project depends on and manage risk from those packages? (Choose 1)
+
+She can use the dependency graph to measure unit test coverage across dependencies
+She can use the dependency graph to monitor how many stars her repositories receive
+She can review the dependency graph to list direct and transitive packages with version and license details and known vulnerability severity
+She can rely on the dependency graph to report runtime latency and throughput for each library
+
+Question 18
+An engineering group at example.com wants to automate updates to GitHub Projects through the GraphQL API using the gh CLI and they need to sign in with a token that permits full project changes. Which gh auth login command should they run to grant the correct scope? (Choose 1)
+
+gh auth login --scopes "repo"
+gh auth login --scopes "project"
+gh auth login --scopes "read:user"
+gh auth login --scopes "read:project"
+
+Question 19
+Your team at Riverbend Analytics wants to move from a simple Markdown issue template to a more guided experience that requires users to provide environment details and reproduction steps. In GitHub, what is the key difference between an issue template and an issue form that supports this need? (Choose 1)
+
+Issue templates must be created through the web UI, and issue forms can only be added by a pull request to the default branch
+Issue templates are restricted to private repositories, and issue forms only work in public repositories
+An issue template is Markdown content that contributors can replace with their own details, and an issue form is a YAML based form with structured fields and required inputs
+Issue templates require HTML to design fields, and issue forms require a GitHub App to render the components
+
+Question 20
+You manage identity for Northbridge Labs and you want employees who are already authenticated on the corporate intranet to open example.com without entering credentials again. Which technology should you deploy to provide this seamless access? (Choose 1)
+
+SSH keys
+SAML based single sign on
+Identity-Aware Proxy
+Two factor authentication
+
+Question 21
+BrightByte created a new repository and plans to use only the default labels that GitHub adds so that issues can be triaged consistently. Which label listed here is not part of the standard default labels that appear in a newly created repository? (Choose 1)
+
+Help wanted
+Community contribution
+Duplicate
+Bug
+
+Question 22
+Riley Chen at mcnz.com needs to add a 220 MiB dataset to a GitHub repository for a machine learning workflow. What should Riley do to make sure the file is accepted by GitHub and the upload completes successfully? (Choose 1)
+
+Split the file into several smaller chunks and commit them separately
+Use Git Large File Storage to track and push the dataset
+Upload the file using the GitHub web interface
+Store the file in Google Cloud Storage and link to it from the repository
+
+Question 23
+At mcnz.com the product team uses GitHub Projects to plan the next three months of work and they want a view where they can place items on a time span and drag them to change start and target dates and align them to iterations. What best describes the Roadmap layout? (Choose 1)
+
+a board view with customizable columns for moving items through stages
+a spreadsheet style grid that lists issues, pull requests, and draft items with flexible fields and filters
+a timeline view that maps issues, pull requests, and draft items across an adjustable time window and lets you drag to set dates and iterations
+a tree layout that nests items into parent and child levels to show hierarchy
+
+Question 24
+An engineering group at scrumtuous.com uses a GitHub repository to automate deployments to Google Cloud through GitHub Actions. They want workflows to start automatically when typical collaboration tasks happen in the repository. Which activities should be configured to trigger a workflow run? (Choose 3)
+
+Pushing new commits to any branch
+Changing the repository visibility from private to public in settings
+Opening a new issue in the repository
+Creating a pull request that targets the main branch
+
+Question 25
+Engineers at BlueRidge Analytics rely on GitHub Copilot for code completion across languages ranging from JavaScript to Elixir. Which factor most affects how comprehensive and accurate the suggestions are for a particular language? (Choose 1)
+
+GitHub Copilot focuses only on a shortlist of popular languages and ignores uncommon languages
+Languages that appear less often in public repositories tend to receive fewer and weaker suggestions
+GitHub Copilot treats every language the same regardless of how much open source code exists for it
+Suggestion quality is not tied to training data size or diversity for each language
+
+Question 26
+In GitHub Projects, which Insights chart displays both completed work and total scope for the past 30 days? (Choose 1)
+
+Lead time chart
+Burn up chart
+Burndown chart
+
+Question 27
+Priya, a maintainer at Riverstone Apps, needs to locate open issues in a GitHub repository that have no labels, have no assignee, and still have zero comments so she can triage them first. Which search query should she use? (Choose 1)
+
+is:open is:issue label:none assignee:none comments:none
+is:open is:issue no:label no:assignee comments:0
+is:open is:issue -label:* -assignee:* -comments:*
+is:open is:issue no:label is:unassigned comments:0
+
+Question 28
+A maintainer at scrumtuous.com reviews a repository and opens the Network graph to inspect recent branch activity. How many of the most recently updated branches can GitHub display in that view? (Choose 1)
+
+Up to 75 branches
+Up to 150 branches
+Up to 100 branches
+Up to 50 branches
+
+Question 29
+A team at Northwind Games is comparing GitHub Desktop with GitHub.com to plan their daily workflows. Which capability is available only in GitHub Desktop and not on GitHub.com? (Choose 1)
+
+Create new repositories
+Display commit and branch history in an interactive graph
+Clone a repository to a local folder
+View repository insights and traffic analytics
+
+Question 30
+Riverton Analytics just created a GitHub organization for its 28 person engineering group. Without granting any additional roles, which action accurately reflects the default capabilities of a regular organization member? (Choose 1)
+
+Configure organization wide code review assignment rules
+Invite people to join the organization
+Create new repositories and set up project boards within the organization
+Enforce branch protection and merge checks for all repositories
+
+Question 31
+Priya is contributing to a repository for mcnz.com and she wants to include an issue closing keyword in her pull request description so that the related issue links automatically when the change is merged. Which branch must be the base of her pull request for the keyword to be recognized? (Choose 1)
+
+A branch in a fork
+Any branch
+The default branch
+The release branch
+
+
+Question 32
+Solstice Data Co. has uncovered a flaw in a repository and the maintainers want to work with a small trusted group to produce a fix without revealing details in issues or pull requests, so which GitHub feature should they use to manage this privately before any public announcement? (Choose 1)
+
+Dependabot alerts
+SECURITY.md
+GitHub Security Advisories
+Private vulnerability reporting
+
+Question 33
+Your team at Northwind Analytics maintains a repository on GitHub and routinely reviews the Security tab to manage risks and follow compliance. Which item would not be shown or tracked on that Security tab? (Choose 1)
+
+Security advisories for the repository
+Security-related Issues opened in the repository
+Code scanning findings
+Security policy for the repository
+
+Question 34
+A new developer at scrumtuous.com wants to skip local setup by using GitHub Codespaces. What best describes what GitHub Codespaces provides? (Choose 1)
+
+Cloud Workstations
+A collaborative coding platform
+A distributed version control system
+A cloud-hosted development environment
+
+Question 35
+A developer at scrumtuous.com forks a shared repository on GitHub to propose changes. In common Git workflows what is the term for the original repository that the fork came from? (Choose 1)
+
+source repository
+downstream repository
+upstream repository
+origin remote
+
+Question 36
+A small engineering team at scrumtuous.com wants to interact with their repositories programmatically so they can connect internal tools and reduce repetitive tasks. What is the primary purpose of the GitHub API in this situation? (Choose 1)
+
+Rendering change history and diffs within a repository interface
+Automating workflows and creating custom integrations with GitHub
+Compiling and packaging software entirely in the browser editor
+Cloud Build
+
+Question 37
+Your team at Cedar Ridge Systems wants contributors from scrumtuous.com to provide consistent details when they report bugs or request features in your GitHub repository. What should you add so that a structured form and clear prompts are shown whenever a new issue is opened? (Choose 1)
+
+Add default labels in the repository
+Configure a pull request template
+Create issue templates
+Set up GitHub Projects
+
+Question 38
+A development team at NimbusWare operates GitHub Enterprise Server and needs to apply deployment protection rules for private and internal repositories. Which capability should they use to implement these rules? (Choose 1)
+
+GitHub Advanced Security
+GitHub Connect
+GitHub Actions
+GitHub Codespaces
+
+Question 39
+An engineer at Solstice Systems plans to share a code snippet using GitHub gists and wants to understand the available visibility choices. Which pair correctly identifies the two types of gist visibility on GitHub? (Choose 1)
+
+Open and Closed
+Public and Secret
+Open and Hidden
+Public and Private
+
+Question 40
+A developer at scrumtuous.com wants their project on GitHub to be easier for people to find and for potential contributors to locate related work. How do repository topics support this goal? (Choose 1)
+
+Topics can only be added to public repositories and do not work on private repositories
+Cloud Discovery Engine
+Adding meaningful topics lets people browse and search by subject so they can find related repositories and discover projects to contribute to
+GitHub allows unlimited topics and unlimited characters per topic for better search
+
+Question 41
+A small research collective at scrumtuous.com is preparing to open source several GitHub repositories and wants to know which security and analysis feature is turned on automatically without any action. Which option is enabled by default for public repositories? (Choose 1)
+
+Secret scanning alerts for users
+Private vulnerability reporting
+Dependency graph
+Dependabot alerts
+
+Question 42
+Priya maintains several repositories on GitHub and needs to make sure she sees important activity as it happens across her work. Which delivery methods on GitHub can she use to receive notifications about activity on GitHub.com? (Choose 3)
+
+A Slack workspace using an app integration
+The notifications inbox in the GitHub.com web interface
+An email client configured with a verified email address
+The notifications inbox in the GitHub Mobile app
+An RSS or Atom feed subscription
+
+Question 43
+A development team at example.com plans to finish a feature branch by merging a pull request in GitHub, and they want to choose a method that shapes how the commit history will appear. Which set of actions are available to complete the pull request merge? (Choose 1)
+
+Checkout a new branch, Commit updates, and Push to origin
+Run Cloud Build, Deploy to Cloud Run, and Tag a release
+Create a merge commit, Squash commits and merge, and Rebase and merge
+Open a pull request, Request a review, and Close the pull request
+
+Question 44
+A software team at Skyline Analytics wants to publish detailed guides for their open source library that cover usage instructions design decisions and core principles. In GitHub, how should they create and maintain these long form documents so that contributors can collaboratively edit them? (Choose 1)
+
+Create a new branch to store the documentation and commit the articles there
+Open the repository Wiki and add a new page with the content
+Add a README.md file in the repository root with all long form details
+Enable Dependabot in the repository and post the documentation content there
+
+Question 45
+RivoMart runs GitHub Enterprise Cloud and needs to automatically create and retire organization-owned developer accounts for about 450 engineers while enforcing single sign-on from the start. Which GitHub capability should the administrators use to provision and centrally manage these user identities? (Choose 1)
+
+GitHub Advanced Security
+Enterprise Managed Users
+Cloud Identity
+GitHub Connect
+
+Question 46
+At a volunteer-run project under the example.com organization, you are reviewing open issues to choose one to contribute to, but you want to avoid duplicating someone else's effort. Which GitHub capability lets contributors clearly indicate that work on a particular issue is underway so teammates can see progress? (Choose 1)
+
+Use the issues and pull requests search to filter by author and status
+Apply an In Progress label to the issue
+Link a pull request or a branch to the issue to signal active work
+Cloud Build
+
+Question 47
+What is the key difference in the compute environment between GitHub.dev and GitHub Codespaces? (Choose 1)
+
+GitHub.dev allocates more powerful CPUs and memory than GitHub Codespaces
+Codespaces provides a cloud VM for build and debug while GitHub.dev has no server compute
+Both run in identical cloud VMs
+
+Question 48
+A project team at scrumtuous.com is organizing work in a GitHub repository and wants to understand how to use milestones versus labels to manage issues and pull requests. What is the key distinction between milestones and labels for tracking work? (Choose 1)
+
+Milestones manage repository permissions, while labels enforce priority levels
+Milestones set target dates and measure progress for a collection of related issues or pull requests, while labels simply categorize items
+Milestones are a feature of Cloud Source Repositories, while labels are available only within GitHub issues and pull requests
+Milestones track individual commits, while labels group entire repositories
+
+Question 49
+Your developer community at mcnz.com needs to decide where to host open conversations and where to track actionable work within a public repository. Which statement accurately distinguishes GitHub Issues from GitHub Discussions? (Choose 1)
+
+GitHub Issues and GitHub Discussions are equivalent and both are intended to be tracked on project boards
+GitHub Projects replace both GitHub Issues and GitHub Discussions for all collaboration needs
+GitHub Discussions are for open community conversations that do not need project board tracking and are not directly tied to code, whereas GitHub Issues are for trackable work
+GitHub Issues handle unstructured community chats that do not belong on a project board, while GitHub Discussions are for actionable tasks tied to code
+
+Question 50
+In a repository discussion for the NebulaKit project, a participant posts a nested reply under an earlier comment that fully resolves the issue. Can that threaded reply be marked as the accepted answer to the discussion? (Choose 1)
+
+Only top level comments can be marked as answers
+A nested reply can be marked as the answer only after it gets at least 5 upvotes
+Nested replies can be selected as the accepted answer
+A threaded reply can be marked only if it is the first reply in that thread
+
+Question 51
+Within the GitHub GraphQL API for Projects, what action does the addProjectV2ItemById mutation carry out when you provide a project identifier and the node ID of an issue or a pull request? (Choose 1)
+
+It updates the project settings such as fields or visibility
+It removes an existing item from the project
+It adds the referenced issue or pull request as a new item in the specified project
+It creates a new project in the organization
+
+Question 52
+At Solstice Robotics a hiring manager is reviewing a candidate's public GitHub profile to know what information any visitor can see. Which elements are typically shown on a public GitHub user profile? (Choose 1)
+
+complete comment history all forks created and file download logs
+private repositories organization secret teams and deployment keys
+basic profile details achievements profile README repositories pinned repositories and stars
+Cloud Storage BigQuery and Cloud Run
+
+Question 53
+A technical writer at Harbor Tech is reviewing a README and wants to verify that each Markdown element is paired with the correct syntax. Which pairing is not using the proper Markdown syntax? (Choose 1)
+
+Hyperlink paired with [Docs](https://example.com)
+Bold text paired with **important**
+Inline code paired with '''snippet'''
+Heading paired with # Project Overview
+
+Question 54
+Riverstone Analytics manages 28 repositories that share similar build and deployment steps in GitHub Actions, and the team plans to invoke centrally maintained reusable workflows from their pipelines to standardize processes across projects. What is the most important advantage of adopting reusable workflows in this scenario? (Choose 1)
+
+Shorter execution time for jobs
+Letting a called workflow use GitHub-hosted runners from the caller repository
+Reducing redundant configuration and reinforcing shared best practices
+Automatic sharing of repository secrets across all workflows
+
+Question 55
+Riverline Analytics oversees several public repositories on GitHub and wants security researchers to know the correct way to disclose issues responsibly. In this context, what best describes a repository security policy on GitHub? (Choose 1)
+
+A hub for publishing and viewing security advisories
+Security Command Center
+A documented process that instructs users how to privately report potential security issues to the maintainers
+Settings that manage dependency vulnerability alert notifications
+Organization level GitHub Advanced Security configuration
+
+Question 56
+A product team at Northwind Apps wants to evaluate GitHub Copilot to speed up delivery. What core task is GitHub Copilot primarily intended to help developers with? (Choose 1)
+
+Running continuous integration builds using Cloud Build
+Automating code compilation and producing binaries
+Facilitating team collaboration and pull request workflows
+Offering context aware code suggestions and generating snippets
+
+Question 57
+An engineering team at scrumtuous.com wants a central place on GitHub to keep their project files and collaborate and review the full history of changes. Which GitHub construct provides this central location and shows the project's revision history? (Choose 1)
+
+Issue
+Branch
+Repository
+Commit
+
+Question 58
+A documentation team at Northwind Robotics maintains a GitHub wiki and wants GitHub to automatically include a custom footer and a custom sidebar. Which filenames should they create locally in the wiki so that GitHub uses them, and what determines how those pages are rendered? (Choose 1)
+
+Create files named footer.html and sidebar.html in the wiki root
+Enable a footer and sidebar through repository settings
+Create files named _Footer.ext and _Sidebar.ext and the file extension defines the rendering
+Add YAML front matter to any page to mark it as the footer or sidebar
+
+Question 59
+Anika, a developer at a media analytics startup named Streammelt, is organizing a confidential project in a private GitHub repository and wants to tag it with topics that reflect the frameworks and features in use so collaborators can discover related work more easily. What is the visibility of topic names that are added to a private repository on GitHub? (Choose 1)
+
+Topic names mirror the repository's privacy setting
+Topic names for private repositories are visible to everyone
+The repository owner can set topic names to public or private
+Topic names in private repositories remain hidden from other users
+
+Question 60
+Neha maintains a GitHub repository for a logistics tool used by mcnz.com and a recent workflow run failed after a third party action changed versions. She needs to review which actions her workflows reference so she can audit them for security and reliability. Where should she look to see the actions referenced by the workflows in that repository? (Choose 1)
+
+GitHub Marketplace
+The dependency graph in the repository
+The Actions tab of the repository
+Cloud Build
+
+Question 61
+A product team at scrumtuous.com needs a shared space in GitHub to plan work, monitor issues, and connect pull requests across several repositories. What best describes a GitHub project? (Choose 1)
+
+Git
+A planning workspace that links issues and pull requests so teams can organize and track work
+Cloud Source Repositories
+GitHub Pages
+
+Question 62
+Engineers at scrumtuous.com use a feature branch workflow in GitHub. You finished work on a branch named feature-checkout and opened a pull request to merge it into the main branch. When is it appropriate to delete the feature branch to keep the repository tidy? (Choose 1)
+
+Before you open the pull request
+Once the pull request is merged or closed
+Immediately after you create the pull request
+After the first successful CI workflow run
+
+Question 63
+A small team at Nimbus Labs manages a public repository on GitHub and wants their automation to run when code is pushed, when a maintainer clicks Run workflow, on a timer every 30 minutes, and when an external service at example.com calls the REST API. Which statement best describes which events can start a GitHub Actions workflow run? (Choose 1)
+
+Only commits to the default branch can start a workflow
+Cloud Scheduler is required because GitHub Actions cannot be started by schedules or API requests
+Pushes, manual runs, scheduled intervals, and REST API calls can all initiate a workflow run
+Workflows can run only when an administrator manually uses the Run workflow button
+
+Question 64
+A team at scrumtuous.com wants a single area within their repository where maintainers contributors and visitors can ask questions share announcements collect feedback and make decisions without using third party tools. Which GitHub capability should they use for this purpose? (Choose 1)
+
+Organizing tasks and milestones with Projects
+Creating and controlling new repositories
+Hosting community conversations like Q&A updates and feedback in one place
+Reviewing code and merging pull requests
+
+Question 65
+In a repository used by the design group at scrumtuous.com you keep a .gitignore in the project root and another .gitignore inside src/mobile after a recent refactor. If both files specify conflicting patterns for the same file path located under src/mobile then which file determines whether Git ignores that path? (Choose 1)
+
+The root .gitignore always overrides entries in deeper folders
+Git combines both files and treats any path ignored by either as ignored
+The .gitignore inside src/mobile overrides the root rules within that subtree
+Git asks the user to choose which pattern to apply at commit time
+
+Question 66
+Which features are part of GitHub Advanced Security on GitHub.com? (Choose 3)
+
+Secret scanning
+Dependabot security updates
+Dependency review
+Code scanning
+
+Question 67
+At NovaSoft a cross functional team wants to improve how work items are organized in their GitHub repository. They plan to rely on labels to streamline triage and reporting. In this scenario what is an appropriate way to use labels? (Choose 1)
+
+Applying labels to files and folders to organize the repository tree
+Labeling issues and pull requests so they can be grouped and filtered during triage
+Giving contributors labels that define their roles and access rights
+Adding labels directly to releases so the labels appear in the release notes
+
+Question 68
+Which GitHub Actions feature allows pull requests to trigger automated tests and deploy releases from the repository? (Choose 1)
+
+GitHub Pages
+Event-driven workflows with reusable actions for CI and deployment
+Project milestone tracking
+Repository permission management
+
+Question 69
+Riverbend Robotics uses a free GitHub organization and is evaluating an upgrade to GitHub Team to better support its repositories and contributors. Which capability would be added by moving from the free organization plan to the GitHub Team plan? (Choose 1)
+
+Team access controls for managing groups
+A higher monthly allowance of GitHub Actions minutes along with more GitHub Packages storage
+Authentication with SAML single sign on for members
+GitHub Advanced Security
+
+Question 70
+At scrumtuous.com your team plans to move from Projects Classic to the updated GitHub Projects experience. Which features are unique to the new Projects when compared with Projects Classic? (Choose 2)
+
+Projects supports columns and cards
+Insights is available in the new Projects experience
+Projects includes Copilot Chat within boards
+The new Projects adds table and roadmap views and offers advanced customization with built in automation
+Projects Classic has exclusive column presets for agile templates
+
+Question 71
+The customer success team at scrumtuous.com wants to standardize frequent responses in GitHub so that reviewers can reply consistently across many projects. They plan to rely on saved replies. Which statements correctly describe how saved replies behave and where they can be used? (Choose 3)
+
+Saved replies can only be inserted within a single repository
+Saved replies are owned by your personal account rather than a repository or organization
+Saved replies are managed at the organization level and cannot be used in personal accounts
+Saved replies let you quickly reuse text in issues, pull requests, and discussions
+GitHub provides a "Duplicate issue" saved reply that you can use to mark duplicates
+
+Question 72
+Blue Harbor Robotics is adopting a standardized approach to automation governance and has assigned the Security Manager role to oversee GitHub Actions at the organization level. Which task can a person with this role carry out for the organization? (Choose 1)
+
+Disable pull request reviews for every repository in the organization
+Remove the branch protection rule that requires successful status checks before merging
+Define which actions and reusable workflows are permitted or blocked for the whole organization
+Delete all workflow runs from private repositories that are older than 120 days
+
+Question 73
+The engineering team at mcnz.com uses GitHub Enterprise Cloud and needs a repository type that lets every member of the enterprise view and contribute without making it public, while another repository type should stay limited to only the people who are invited. What is the key difference between an internal repository and a private repository in this situation? (Choose 1)
+
+Private repositories can be viewed by anyone with a GitHub account, while internal repositories are restricted to enterprise members
+Internal repositories are available to all members of the enterprise, while private repositories are limited to collaborators you explicitly add
+Private repositories are visible to everyone in the organization by default, while internal repositories can only be seen by selected teams
+Internal repositories are public to the internet but write restricted to enterprise members, while private repositories allow read access for outside collaborators by default
+
+Question 74
+A product team at Northwind Robotics wants a simple collaboration model that fits frequent small releases. Which description most accurately captures how GitHub Flow operates? (Choose 1)
+
+A trunk based development approach where commits land on one shared branch many times per day and pull requests are optional
+An automation pattern where every push to the main branch produces and deploys a new release
+A branch based workflow where each change is developed in a dedicated branch and merged to main through a pull request after review and testing
+A practice where each commit to main triggers CI and validation pipelines to test code
+
+Question 75
+Riverbend Analytics wants internal projects to be visible and reusable across 15 engineering teams while keeping the code private within the organization. Which practice should the company adopt to encourage collaboration and transparent code sharing across departments? (Choose 1)
+
+Cloud Source Repositories
+Continuous Integration
+InnerSource
+Open source
+
+Question 76
+A media analytics firm named Clearwave Media keeps several private repositories on GitHub and wants to stop API keys and passwords from being committed by mistake. What does the GitHub Secret scanning feature provide to address this need? (Choose 1)
+
+Automates code scanning to detect vulnerabilities in source code
+Finds exposed secrets and credentials that were committed to the repository
+Tracks the volume and status of pull requests across the repository
+Maps and displays the project's dependency graph and related updates
+
+Question 77
+A community manager at an open source collective wants to enable funding on GitHub to support projects. Which account types on the platform can accept sponsorships through GitHub Sponsors? (Choose 2)
+
+Any user who has recently contributed to a public repository on GitHub
+An individual developer account that has created a GitHub Sponsors developer profile
+Any account with an active GitHub Pro subscription
+An organization account that has set up a GitHub Sponsors organization profile
+
+Question 78
+Nia Alvarez has pushed a set of changes to a shared repository on GitHub for a logistics app at example.com. Soon after, Nia realizes that one particular commit introduced a faulty change and needs to back out just that commit while keeping the project history intact and leaving all other commits in place. What Git command should be used to achieve this? (Choose 1)
+
+git commit --amend
+git reset
+git revert
+git checkout
+
+Question 79
+Lena maintains a repository for scrumtuous.com and wants code owners to be requested automatically when someone opens a pull request that touches the files they own. Where does the CODEOWNERS file need to exist so that review requests trigger when the pull request is created? (Choose 1)
+
+Inside the .git folder of the repository
+In the same directory as the changed files
+On the base branch targeted by the pull request
+Cloud Source Repositories
+
+Question 80
+A product team at Blue Harbor Studios is reviewing GitHub's Copilot X vision and wants to identify a primary capability that goes beyond ordinary autocomplete suggestions, so which description correctly reflects one of the capabilities planned for Copilot X? (Choose 1)
+
+Exclusive support for Visual Studio Code with no integration for other IDEs
+Removal of code completion in favor of documentation search only
+An IDE-native chat experience that uses GPT-4 to explain code, write tests, and suggest fixes
+Always-on real time comments for every line as you type in the editor
