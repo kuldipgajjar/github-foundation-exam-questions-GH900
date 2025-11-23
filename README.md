@@ -10,7 +10,7 @@ This exam simulator helps users prepare for GitHub Foundation–level certificat
 ## 🚀 Live Demo
 
 👉 **Start the Exam Here:**  
-[https://gaj.github.io/github-foundation-exam-questions-GH900/](https://kuldipgajjar.github.io/github-foundation-exam-questions-GH900/)
+https://kuldipgajjar.github.io/github-foundation-exam-questions-GH900/
 
 _No installations required. Opens instantly in your browser._
 
